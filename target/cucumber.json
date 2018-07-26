@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SignIn",
+        "description": "",
+        "id": "signin-process;signin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9268726436,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I entered facebook.com URL",
+            "match": {
+              "location": "StepDefinition.i_entered_facebook_com_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 965828161,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I typed my email address",
+            "match": {
+              "location": "StepDefinition.i_typed_my_email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54792423,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I typed my password",
+            "match": {
+              "location": "StepDefinition.i_typed_my_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1646194907,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Submitt",
+            "match": {
+              "location": "StepDefinition.i_click_on_Submitt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374625,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I expect My valid profile",
+            "match": {
+              "location": "StepDefinition.i_expect_My_valid_profile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SignIn process",
+    "description": "",
+    "id": "signin-process",
+    "keyword": "Feature",
+    "uri": "C:/Users/MD/workspace/BddCucumber042016/SignIn.feature"
+  }
+]

@@ -24,6 +24,7 @@ public class StepDefinition
 	@When("^i enter password\"([^\"]*)\"$")
 	public void i_enter_password(String arg1) throws Throwable {
 	    dr.findElement(By.id("pass")).sendKeys(arg1);
+	    //Hello
 	}
 
 	@When("^i click login$")
